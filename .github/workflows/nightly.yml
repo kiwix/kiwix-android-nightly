@@ -3,7 +3,7 @@ name: Publish nightly build
 on:
   pull_request:
     branches:
-      - '**'
+      - main
 
 jobs:
   nightly:
